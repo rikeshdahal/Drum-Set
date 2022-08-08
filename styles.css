@@ -1,0 +1,59 @@
+body {
+  text-align: center;
+ background-image: url("https://images.pexels.com/photos/1482476/pexels-photo-1482476.jpeg?cs=srgb&dl=pexels-sebastiaan-stam-1482476.jpg&fm=jpg");
+ background-size: cover;
+ 
+}
+
+h1 {
+  font-size: 5rem;
+  color: #00bfff;
+  font-family: "Arvo", cursive;
+  text-shadow: 3px 0 #DA0463;
+  top: 0%;
+}
+
+footer {
+  color: #ffffff;
+  font-family: cursive;
+}
+.set {
+  margin: 10% auto;
+}
+
+.pressed {
+  box-shadow: 0 10px 20px 0 #ff0000;
+  opacity: 0.5;
+}
+
+.red {
+  color: red;
+}
+
+.drum {
+  outline: none;
+  border: 10px solid #00ff04;
+  font-size: 2rem;
+  font-family: 'Arvo', cursive;
+  line-height: 2;
+  font-weight: 900;
+  color: #e1ff00;
+  text-shadow: 3px 0 #ff0000;
+  border-radius: 15px;
+  display: inline-block;
+  width: 100px;
+  height: 100px;
+  text-align: center;
+  margin: 20px;
+  background-color: transparent;
+}
+
+@media(max-width:1000px){
+  .drum{
+  width: 350px;
+  height: 200px;
+text-align: center;
+margin: 10px 10px 10px 323px;
+    display: block;
+  }
+}
